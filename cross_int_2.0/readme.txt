@@ -139,7 +139,7 @@ Note you could type anything below the "end" and it will be ignored.  I included
 This is the output you would get in the "long" format file:
 
 ************************************************************************************************************************
-VERSION 2.0                                 By Paul Barklem, barklem@astro.uu.se
+VERSION 2.0                                 By Paul Barklem
  
  Input Filename: first.list                    
 Output Filename: first.out                     
@@ -196,12 +196,6 @@ You can of course, change this output to whatever you want very easily.
 
 Although 2 decimal places of the cross section are retained here, the cross sections are only expected to be accurate to around 5 per cent.
 
-4. BUGS etc.
-------------
-
-Please report any bugs or problems to Paul Barklem via Paul.Barklem@fysast.uu.se
-
-Any comments good, bad or otherwise are welcomed!
 
 
 
