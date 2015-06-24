@@ -2,7 +2,14 @@
 
 Hydrogen broadening Cross-Section Calculator
 
-This code was announced in Publications of the Astronomical Society of Australia,15(3), 336-338, 1998.
+This code was announced in 
+  - Barklem, P S, S. D. Anstee, and B J O’Mara. “Line Broadening Cross Sections for the Broadening of Transitions of Neutral Atoms by Collisions with Neutral Hydrogen.” Publications Astronomical Society of Australia 15 (1998): 336–38.
+
+If you use this code, please cite this paper and the other papers on which it is based: 
+
+  - Anstee, S. D., and B J O’Mara. “Width Cross-Sections for Collisional Broadening of S-P and P-S Transitions by Atomic Hydrogen.” Monthly Notices of the Royal Astronomical Society 276, no. 3 (1995): 859–66.
+  - Barklem, P S, and B J O’Mara. “The Broadening of P-D and D-P Transitions by Collisions with Neutral Hydrogen Atoms.” Monthly Notices of the Royal Astronomical Society 290, no. 1 (1997): 102–6.
+  - Barklem, P S, B J O’Mara, and J. E. Ross. “The Broadening of D-F and F-D Transitions by Collisions with Neutral Hydrogen Atoms.” Monthly Notices of the Royal Astronomical Society 296, no. 4 (1998): 1057–60. doi:10.1046/j.1365-8711.1998.01484.x.
 
 This program interpolates cross-sections from the Anstee, Barklem and O'Mara computed tables of line broadening parameters for transitions of neutral atoms broadened by collisions with neutral hydrogen atoms.  The code will interpolate from the tables, and compute the line width at a given temperature. It was written with the idea that users would take the code and merge into their own codes, but it can be used in stand alone mode. Another aim to make available electronic verisons of the tables for convenience.
 
