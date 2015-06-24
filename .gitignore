@@ -1,3 +1,27 @@
 
 .DS_Store
 
+cross_int_2.0/OLD
+cross_int_2.0/calculations
+
+*.o
+
+cross_int_2.0/makezip
+
+cross_int_2.0/maketar
+
+cross_int_2.0/draft1.f
+
+cross_int_2.0/cross_2.0.tar
+
+cross_int_1.1/makezip
+
+cross_int_1.1/maketar
+
+cross_int_1.1/a.out
+
+cross_int_2.0/widthcomp.out
+
+cross_int_1.1/cross_1.1.zip
+
+cross_int_1.1/cross_1.1.tar
