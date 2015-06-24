@@ -1,0 +1,9 @@
+### This is a blank template for widthcomp input files
+### List data below in tabular form
+###
+### 	Wavel		Elower	 	Elimit		Eupper		Elimit         llow  lupp  Jlow Jupp
+###    	(angst)		(cm^-1)		(cm^-1)		(cm^-1)		(cm^-1)
+###
+$$$	Multiplet 4
+Li 1    6103.6000       14904.000       43487.190       31283.12       43487.190         1  2  1.5  2.5
+end
