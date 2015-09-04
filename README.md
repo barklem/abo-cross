@@ -23,4 +23,4 @@ I provide the original basic version of the program (v1.1) and a newer verison (
  
 Each version has its own README.
 
-Please report any bugs or problems by email.
+Bug reports: paul.barklem@physics.uu.se
