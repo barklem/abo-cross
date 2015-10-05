@@ -13,7 +13,7 @@ If you use this code, please cite this paper and the other papers on which it is
 
 This program interpolates cross-sections from the Anstee, Barklem and O'Mara computed tables of line broadening parameters for transitions of neutral atoms broadened by collisions with neutral hydrogen atoms.  The code will interpolate from the tables, and compute the line width at a given temperature. It was written with the idea that users would take the code and merge into their own codes, but it can be used in stand alone mode. Another aim to make available electronic verisons of the tables for convenience.
 
-I provide the original basic version of the program (v1.1) and a newer verison (v2.0).  The main internal codes are exactly the same but a different front end routine (plus necessary extras) is provided in v2.0 which has the folowing advantages:
+I provide the original basic version of the program (v1.1) and a newer verison (v2.0).  The main internal codes are exactly the same but a different front end routine (plus necessary extras) is provided in v2.0 which has the following advantages:
 
  - The computation of effective principal quantum number is done by the program, input is simply energy levels;
  - Uses input and output files which has several advantages:
