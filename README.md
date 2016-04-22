@@ -1,5 +1,7 @@
 # abo-cross
 
+[![DOI](https://zenodo.org/badge/21607/barklem/abo-cross.svg)](https://zenodo.org/badge/latestdoi/21607/barklem/abo-cross)
+
 Hydrogen broadening Cross-Section Calculator
 
 This code was announced in 
