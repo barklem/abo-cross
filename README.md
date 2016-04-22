@@ -1,7 +1,5 @@
 # abo-cross
 
-[![DOI](https://zenodo.org/badge/21607/barklem/abo-cross.svg)](https://zenodo.org/badge/latestdoi/21607/barklem/abo-cross)
-
 Hydrogen broadening Cross-Section Calculator
 
 This code was announced in 
@@ -26,3 +24,6 @@ I provide the original basic version of the program (v1.1) and a newer verison (
 Each version has its own README.
 
 Bug reports: paul.barklem@physics.uu.se
+
+Please cite the DOI if you make use of the code in research:
+[![DOI](https://zenodo.org/badge/21607/barklem/abo-cross.svg)](https://zenodo.org/badge/latestdoi/21607/barklem/abo-cross)
