@@ -17,7 +17,7 @@ c
   	CHECK=ABS(Lupp-Llow)
 	if (CHECK.ne.1) then
 	 IFAIL=1
-	 print *,'#######Forbidden transition!'
+	 print *,'!!! Forbidden transition !!!'
 	 return
 	end if	
 c
@@ -31,7 +31,7 @@ c
 	if ((TABLE.ne.1).and.(TABLE.ne.3).and.(TABLE.ne.5))
      ;   then
 	 IFAIL=1
-	 print *,'#######Transition not covered by current data'
+	 print *,'!!! Transition not covered by current data !!!'
 	 return
         end if
 c
@@ -63,7 +63,7 @@ c
 	if ((NSS.gt.3.).or.(NSS.lt.1.).or.(NSP.gt.3.).or.(NSP.lt.1.3))
      ;   then
 	 IFAIL=1
-	 print *,'#######Outside range of tables! (s-p)'
+	 print *,'!!! Outside range of tables! (s-p)'
          return 
 	end if
 c
@@ -130,7 +130,7 @@ c
 	if ((NSP.gt.3.).or.(NSP.lt.1.3).or.(NSD.gt.4.).or.(NSD.lt.2.3))
      ;   then
 	 IFAIL=1
-	 print *,'#######Outside range of tables! (p-d)'
+	 print *,'!!! Outside range of tables! (p-d)'
          return 
 	end if
 c
@@ -198,7 +198,7 @@ c
 	if ((NSD.gt.4.).or.(NSD.lt.2.3).or.(NSF.gt.5.).or.(NSF.lt.3.3))
      ;   then
 	 IFAIL=1
-	 print *,'#######Outside range of tables! (d-f)'
+	 print *,'!!! Outside range of tables! (d-f)'
          return 
 	end if
 c
@@ -542,7 +542,10 @@ c**********************************************************************
       GOTO 1
       ENDIF
       H=XA(KHI)-XA(KLO)
-      IF (H.EQ.0.) PAUSE 'Bad XA input.'
+      IF (H.EQ.0.) THEN
+         PRINT * ,'Bad XA input.  Hit enter'
+         READ(*,*)
+      ENDIF
       A=(XA(KHI)-X)/H
       B=(X-XA(KLO))/H
       Y=A*YA(KLO)+B*YA(KHI)+

@@ -4,6 +4,9 @@
 ### 	Wavel		Elower	 	Elimit		Eupper		Elimit         llow  lupp  Jlow Jupp
 ###    	(angst)		(cm^-1)		(cm^-1)		(cm^-1)		(cm^-1)
 ###
-$$$	Multiplet 4
+...	Multiplet 4
 Li 1    6103.6000       14904.000       43487.190       31283.12       43487.190         1  2  1.5  2.5
+... type 2 cross section input
+Ca 2	3968.47		-1		234		.223				0	1	0.5	0.5
+Ca 2	3933.66		-1		234		.223				0	1	0.5	1.5
 end

@@ -1,7 +1,7 @@
 WIDTHCOMP documentation
 -----------------------
 
-Paul Barklem, Uppsala, 1998-2000
+Paul Barklem, Uppsala, 1998-2018
 
 
 0.  VERSION HISTORY
@@ -12,6 +12,11 @@ Released 12/08/2000
 Tested using Sun Fortran77
 
 Some updates 5/3/2009 following discovery of a bug which showed up under the Intel compiler
+
+Some improvements 11/12/2018, especially :
+  - lines that are not able to be calculated with tables, input data and n* are output to long file
+  - fixes to make compatible with gfortran
+  - ... can now be used instead of $$$ (a bit less jarring)
 
 1.  INTRODUCTION
 ----------------

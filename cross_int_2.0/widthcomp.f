@@ -7,6 +7,7 @@ c   transition data and output a similar file of cross sections
 c   and linewidths per perturber
 c
 c  some updates March 2009, including one bug fix
+c  some updates and improvements December 2018
 c***************************************************************
 
 	PROGRAM WIDTHCOMP
@@ -28,12 +29,12 @@ c
 	CHARACTER*100 CARD(50000)
 	CHARACTER*3 HEAD, SPEC(50000)
 	CHARACTER*2 ELEMENT
-	CHARACTER*1 TYPE(50000)
+	CHARACTER*1 INPUTTYPE(50000)
 	INTEGER ION(50000)
 	CHARACTER*24 TODAY,CTIME
 c
 	PARAMETER (NUMIN=7) !number of input data per line
-	PARAMETER (VERSION='VERSION 2.0')
+	PARAMETER (VERSION='VERSION 2.1')
 c
 	PRINT*,'Enter the Input File name --->'
 	READ(*,'(A30)') INPUTFILE
@@ -66,13 +67,13 @@ c
 	READ(17,'(A3)') HEAD
 	IF ((HEAD.EQ.'end').OR.(HEAD.EQ.'END')) GO TO 500
 	IF ((HEAD.NE.'###').AND.(HEAD.NE.'   ')
-     ;                     .AND.(HEAD.NE.'$$$')) THEN
+     ;      .AND.(HEAD.NE.'$$$').AND.(HEAD.NE.'...')) THEN
 	  I=I+1
 	  COUNT=COUNT+1
 c
 c   assume a cross section input first
 c
-	  TYPE(I) = 'C'
+	  INPUTTYPE(I) = 'C'
 	  BACKSPACE(17)
 	  READ(17,*) SPEC(I), ION(I), (LINE(I,J),J=1,8)
 c	  print *,SPEC(I), ION(I), (LINE(I,J),J=1,8)
@@ -81,13 +82,13 @@ c
 c
 c       we have line data type input 
 c
-	     TYPE(I)='L'
+	     INPUTTYPE(I)='L'
 	     BACKSPACE(17)
 	     READ(17,*) SPEC(I), ION(I), (LINE(I,J),J=1,9)
 c	     print *,SPEC(I), ION(I), (LINE(I,J),J=1,9)
 	   END IF
 	END IF
-	IF (HEAD.eq.'$$$') then
+	IF ((HEAD.eq.'$$$').or.(HEAD.eq.'...')) then
 c
 c   a comment line to be printed to output
 c
@@ -120,7 +121,7 @@ c
      ;   1X,A5,2X,A5,
      ;   4X,A5,1X,4A12)  
 	WRITE(14,'(150A)') ('*',J=1,150)
-	WRITE(14,74) VERSION, 'By Paul Barklem, Paul.Barklem@fysast.uu.se'
+	WRITE(14,74) VERSION,'By Paul Barklem, Paul.Barklem@physics.uu.se'
 	WRITE (14,'(A)') ' '
 	WRITE (14,71)'Input Filename:',INPUTFILE
 	WRITE (14,71)'Output Filename: ',OUTPUTFILE
@@ -148,7 +149,7 @@ c
 	  EUPP = -1 
 	  ELIMIT_LOW = -1 
 	  ELIMIT_UPP = -1 
-	  if (SPEC(I).eq.'$$$') then
+	  if ((SPEC(I).eq.'$$$').or.(SPEC(I).eq.'...')) then
 	    WRITE(14,*) ' '
 	    WRITE(14,'(A100)') CARD(I)
 	  else
@@ -166,7 +167,7 @@ c
 	           WRITE (*,81)'Element ',ELEMENT,' not found!'
 	           IFAIL = 1
 	        end if
-	     if (TYPE(I).eq.'L') then
+	     if (INPUTTYPE(I).eq.'L') then
 	         Elow = LINE(I,2)
 	         Eupp = LINE(I,4)
 	         Elimit_low = LINE(I,3)
@@ -192,9 +193,13 @@ c
 	         if (IFAIL_INT.ne.0) then
 51	           FORMAT(A35,F9.3,A1)
 52		   FORMAT( 'n* are ',f6.2,' -> ',f6.2) 
-	           WRITE(6,51) 'Unable to get xsection for line at ',WL,'Å'
+	        WRITE(6,51) 'Unable to get xsection for line at ',WL,'AA'  
 	           WRITE(6,'(A30)') 'for above reason.'
                    WRITE(6,52) NSTARlow,NSTARupp
+c   write out data we have to long file                   
+        WRITE(14,94) ELEMENT, Z_N,WL,Elow,Elimit_low,Eupp,Elimit_upp,
+     ;       Llow,'->',Lupp,Jlow,'->',Jupp,NSTARlow, NSTARupp 
+
 		   GOTO 555
 	         end if
 	     else
@@ -229,12 +234,14 @@ c     ;             1X,F7.3,1X,F11.3)
  91	FORMAT(A2,1X,I1,1X,F9.3,1X,F10.3,1X,F10.3,1X,F10.3,1X,F10.3,
      ;             1X,I1,A2,I1,1X,F3.1,A2,F3.1,1X,F5.3,1X,F5.3,1X,F7.2,
      ;             1X,F7.3,1X,F11.3,1X,F11.3,1X,F11.3,1X,F11.3)
- 92	FORMAT(A2,1X,I1,1X,F9.3,5X,A20,20X,I1,A2,I1,1X,F3.1,A2,F3.1,
-     ;             13X,F7.2,1X,F7.3,1X,F7.3)
+ 94	FORMAT(A2,1X,I1,1X,F9.3,1X,F10.3,1X,F10.3,1X,F10.3,1X,F10.3,
+     ;             1X,I1,A2,I1,1X,F3.1,A2,F3.1,1X,F5.3,1X,F5.3)
+ 92	FORMAT(A2,1X,I1,1X,F9.3,5X,7X,A25,8X,I1,A2,I1,1X,F3.1,A2,F3.1,
+     ;             13X,F7.2,1X,F7.3,1X,F11.3)
  93	FORMAT(I2,A,2I1,1X,F10.3,2(1X,F4.1),1X,F7.3,1X,F7.3,1X,F8.2,1X,
      ;         F6.3,4(1X,F10.3),1X,I1,1X,I1,1X,F7.3)
-	if (TYPE(I).eq.'L') then
-	  WRITE(14,91) ELEMENT, Z_N, WL,Elow, Elimit_low, Eupp, Elimit_upp,
+	if (INPUTTYPE(I).eq.'L') then
+	  WRITE(14,91) ELEMENT, Z_N,WL,Elow,Elimit_low,Eupp,Elimit_upp,
      ;       Llow,'->',Lupp,Jlow,'->',Jupp,NSTARlow, NSTARupp, CROSS,
      ;       ALPHA, LGFW
      ; , LGC6, LGFW_U, LGC6_U 
@@ -247,8 +254,8 @@ c
 	    LGFW = 0.
 	  if (IFAIL_INT.eq.0) LGFW = LOG10(FULLWIDTH)
 	    IGOOD=IGOOD+1
-	  WRITE(14,92) ELEMENT, Z_N, WL,'cross section input',
-     ;                  Llow,'->',Lupp,Jlow,'->',Jupp, CROSS, ALPHA,LGFW 
+	  WRITE(14,92) ELEMENT, Z_N, WL, '-- cross section input --',
+     ;       Llow,'->',Lupp,Jlow,'->',Jupp, CROSS, ALPHA,LGFW 
 	end if
 c
 c  if available compute the levels in eV for short output
