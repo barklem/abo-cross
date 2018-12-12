@@ -130,7 +130,7 @@ c
 	WRITE (14,73)'Processed',COUNT,'Lines.'
 	WRITE(14,'(150A)') ('*',J=1,150)
         WRITE(14,75)'Spec','Wavel','Elow','Elimit','Eupp',
-     ;     'Elimit','L','J','N*low',
+     ;     'Elimit','l','J','N*low',
      ;     'N*upp','Sigma','Alpha','Log(FWHM/N)',
 c     ;     ' ', ' ', ' '
      ;      'Log(C6:U)', 
@@ -224,7 +224,6 @@ c  below from Aller
 c   below at 10000 K 
         LGFW_U = (LGC6_U +12.32)/2.5  
       endif
-	    IGOOD=IGOOD+1
 c
 c 	WRITE computed data to file
 c
@@ -245,6 +244,7 @@ c     ;             1X,F7.3,1X,F11.3)
      ;       Llow,'->',Lupp,Jlow,'->',Jupp,NSTARlow, NSTARupp, CROSS,
      ;       ALPHA, LGFW
      ; , LGC6, LGFW_U, LGC6_U 
+	    IGOOD=IGOOD+1
 	else
 c
 c      now compute line widths for all
