@@ -220,7 +220,7 @@ c  below from Aller
      ;         -3.*Lupp*(Lupp+1))
         Rlow = NSTARlow*NSTARlow/2.*(5.*NSTARlow*NSTARlow+1.
      ;         -3.*Llow*(Llow+1))
-        LGC6_U = LOG10(6.46E-34*(Rupp-Rlow))
+        LGC6_U = LOG10(6.46E-34*ABS(Rupp-Rlow))
 c   below at 10000 K 
         LGFW_U = (LGC6_U +12.32)/2.5  
       endif
