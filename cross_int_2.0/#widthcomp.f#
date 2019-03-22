@@ -9,7 +9,7 @@ c
 c  some updates March 2009, including one bug fix
 c  some updates and improvements December 2018
 c***************************************************************
-
+        
 	PROGRAM WIDTHCOMP
 c***************************************************************
 c The main program
@@ -150,7 +150,7 @@ c
 	  ELIMIT_LOW = -1 
 	  ELIMIT_UPP = -1 
 	  if ((SPEC(I).eq.'$$$').or.(SPEC(I).eq.'...')) then
-c	    WRITE(14,*) ' '
+	    WRITE(14,*) ' '
 	    WRITE(14,'(A100)') CARD(I)
 	  else
 	         ELEMENT = SPEC(I)(1:2)
