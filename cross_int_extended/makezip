@@ -1,0 +1,2 @@
+#!/usr/local/bin/bash
+zip cross_20.zip widthcomp.f retcross.f spdata.dat pddata.dat dfdata.dat readme.txt

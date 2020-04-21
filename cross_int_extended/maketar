@@ -1,0 +1,2 @@
+#!/bin/bash
+tar -cvf cross_2.0.tar widthcomp.f retcross.f spdata.dat pddata.dat dfdata.dat readme.txt

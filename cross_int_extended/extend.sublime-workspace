@@ -1,0 +1,1129 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"LZa",
+				"LZa_orig"
+			],
+			[
+				"tw",
+				"twoelectron"
+			],
+			[
+				"N",
+				"Nstates"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "widthcomp.f",
+			"settings":
+			{
+				"buffer_size": 11380,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "retcross.f",
+			"settings":
+			{
+				"buffer_size": 17277,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/barklem/Dropbox/StudentProjectWork/AdamHultquist/extended data/Sigma_CWPD_larger_fix_fixade.txt",
+			"settings":
+			{
+				"buffer_size": 8563,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/barklem/Dropbox/StudentProjectWork/AdamHultquist/extended data/Sigma_CWDF_fixade.txt",
+			"settings":
+			{
+				"buffer_size": 5577,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dfdata.dat",
+			"settings":
+			{
+				"buffer_size": 11236,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "widthcomp.com",
+			"settings":
+			{
+				"buffer_size": 103,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/barklem/Dropbox/Projects/abo-cross/cross_int_2.0/calculations/strongsol.lines",
+			"settings":
+			{
+				"buffer_size": 18242,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "strongsol_check.long",
+			"settings":
+			{
+				"buffer_size": 47864,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spdata.dat",
+			"settings":
+			{
+				"buffer_size": 23908,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/barklem/Dropbox/StudentProjectWork/AdamHultquist/extended data/Alpha_CWDF_fixad.txt",
+			"settings":
+			{
+				"buffer_size": 5577,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/barklem/Dropbox/StudentProjectWork/AdamHultquist/extended data/Alpha_CWID_fixad.txt",
+			"settings":
+			{
+				"buffer_size": 11914,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/barklem/Dropbox/StudentProjectWork/AdamHultquist/extended data/Alpha_CWPD_larger_fixad.txt",
+			"settings":
+			{
+				"buffer_size": 8557,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/barklem/Dropbox/StudentProjectWork/AdamHultquist/extended data/Sigma_CWID_fixade.txt",
+			"settings":
+			{
+				"buffer_size": 11914,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "calculations/carlosNodamod.input",
+			"settings":
+			{
+				"buffer_size": 3521,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "calculations/carlosNodamod.long",
+			"settings":
+			{
+				"buffer_size": 3700,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "calculations/carlosNodamod.short",
+			"settings":
+			{
+				"buffer_size": 1955,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pddata.dat",
+			"settings":
+			{
+				"buffer_size": 17180,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "strongsol.output",
+			"settings":
+			{
+				"buffer_size": 37262,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/barklem/Dropbox/Documents/papers/linelist/CDS/hlist.dat",
+			"settings":
+			{
+				"buffer_size": 572247,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "calculations/carlos.long",
+			"settings":
+			{
+				"buffer_size": 2831,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/barklem/Dropbox/Projects/broadening/broadening-extras/HK_bands_sneden/ir.list",
+			"settings":
+			{
+				"buffer_size": 8506,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "calculations/carlosNoda.long",
+			"settings":
+			{
+				"buffer_size": 2895,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "calculations/carlosNoda.input",
+			"settings":
+			{
+				"buffer_size": 2129,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/barklem/Dropbox/Projects/broadening/broadening-extras/HK_bands_sneden/ir.in",
+		"/Users/barklem/Dropbox/Projects/abo-cross/cross_int_extended/draft1.f",
+		"/Users/barklem/Dropbox/Projects/rydberg/kaulakys/input/Mn.txt",
+		"/Users/barklem/Dropbox/Projects/rydberg/kaulakys/kaulakys.pro",
+		"/Users/barklem/Dropbox/Projects/rydberg/kaulakys/calc_kaulakys.pro",
+		"/Users/barklem/Dropbox/Projects/Asymp_Ionic/codes/IONCOV/input/Mg.inp",
+		"/Users/barklem/Dropbox/Projects/Asymp_Ionic/codes/IONCOV/ioncov.sublime-project",
+		"/Users/barklem/Dropbox/Projects/broadening/broadening-extras/HK_bands_sneden/ir.list",
+		"/Users/barklem/Dropbox/Projects/Asymp_Ionic/codes/IONCOV/input/C.inp",
+		"/Users/barklem/Dropbox/Projects/Asymp_Ionic/codes/IONCOV/input/K.inp",
+		"/Users/barklem/Dropbox/Projects/Mg+e/comp_mge.pro",
+		"/Users/barklem/Dropbox/Projects/Asymp_Ionic/codes/IONCOV/output/Ca/multilz/TOTALS/LCAO/MERGE/flucs/6000_K.max",
+		"/Users/barklem/Dropbox/Projects/Asymp_Ionic/codes/IONCOV/output/Ca/multilz/TOTALS/LCAO/MERGE/flucs/6000_K.min",
+		"/Users/barklem/Dropbox/Projects/Asymp_Ionic/codes/IONCOV/output/Ca/multilz/TOTALS/LCAO/MERGE/switch/6000_K.rates",
+		"/Users/barklem/Dropbox/Projects/Asymp_Ionic/codes/IONCOV/output/Ca/merged_states",
+		"/Users/barklem/Dropbox/Projects/Asymp_Ionic/codes/IONCOV/output/Ca/multilz/TOTALS/LCAO/MERGE/flucs6000_K.max",
+		"/Users/barklem/Dropbox/Projects/Equilibrium/paper/tables/tables_cds/table2/AgCl.txt",
+		"/Users/barklem/Dropbox/Projects/Equilibrium/paper/tables/tables_cds/table2/ch-ext",
+		"/Users/barklem/Dropbox/Projects/Equilibrium/paper/tables/tables_cds/table4.txt",
+		"/Users/barklem/Dropbox/Projects/Equilibrium/paper/tables/tables_cds/table5b.bib",
+		"/Users/barklem/Dropbox/Projects/Equilibrium/paper/tables/tables_cds/table5a.txt",
+		"/Users/barklem/Dropbox/Projects/Equilibrium/paper/tables/tables_cds/table6.txt",
+		"/Users/barklem/Dropbox/Projects/Equilibrium/paper/tables/tables_cds/table7.txt",
+		"/Users/barklem/Dropbox/Projects/Equilibrium/paper/tables/tables_cds/table8.txt",
+		"/Users/barklem/Dropbox/Projects/Equilibrium/molcalc/parse_mol.pro",
+		"/Users/barklem/Dropbox/Projects/Equilibrium/paper/tables/tables_cds/table1.readme",
+		"/Users/barklem/Dropbox/Projects/Equilibrium/paper/tables/tables_cds/table1.txt",
+		"/Users/barklem/Dropbox/Projects/Equilibrium/paper/ref_reply.txt"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"A50",
+			"VERSION",
+			"A50",
+			"A30",
+			"6173.",
+			"8468",
+			"6301",
+			"6173",
+			"5250"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 14,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "widthcomp.f",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11380,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2927,
+								2930
+							]
+						],
+						"settings":
+						{
+							"SL.14.region_keys":
+							[
+							],
+							"SL.149.region_keys":
+							[
+							],
+							"syntax": "Packages/Fortran/grammars/FortranFixedForm.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1424.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "retcross.f",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17277,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5778,
+								5778
+							]
+						],
+						"settings":
+						{
+							"SL.15.region_keys":
+							[
+							],
+							"SL.150.region_keys":
+							[
+							],
+							"syntax": "Packages/Fortran/grammars/FortranFixedForm.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/barklem/Dropbox/StudentProjectWork/AdamHultquist/extended data/Sigma_CWPD_larger_fix_fixade.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8563,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								8557
+							]
+						],
+						"settings":
+						{
+							"SL.16.region_keys":
+							[
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/barklem/Dropbox/StudentProjectWork/AdamHultquist/extended data/Sigma_CWDF_fixade.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5577,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								5577
+							]
+						],
+						"settings":
+						{
+							"SL.157.region_keys":
+							[
+							],
+							"SL.17.region_keys":
+							[
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "dfdata.dat",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11236,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11235,
+								11235
+							]
+						],
+						"settings":
+						{
+							"SL.18.region_keys":
+							[
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "widthcomp.com",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 103,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.19.region_keys":
+							[
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/barklem/Dropbox/Projects/abo-cross/cross_int_2.0/calculations/strongsol.lines",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18242,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.20.region_keys":
+							[
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "strongsol_check.long",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 47864,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2086,
+								2086
+							]
+						],
+						"settings":
+						{
+							"SL.21.region_keys":
+							[
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "spdata.dat",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23908,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9680,
+								9680
+							]
+						],
+						"settings":
+						{
+							"SL.22.region_keys":
+							[
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Users/barklem/Dropbox/StudentProjectWork/AdamHultquist/extended data/Alpha_CWDF_fixad.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5577,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								5577
+							]
+						],
+						"settings":
+						{
+							"SL.23.region_keys":
+							[
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/Users/barklem/Dropbox/StudentProjectWork/AdamHultquist/extended data/Alpha_CWID_fixad.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11914,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								11914
+							]
+						],
+						"settings":
+						{
+							"SL.24.region_keys":
+							[
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/Users/barklem/Dropbox/StudentProjectWork/AdamHultquist/extended data/Alpha_CWPD_larger_fixad.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8557,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								8557
+							]
+						],
+						"settings":
+						{
+							"SL.25.region_keys":
+							[
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/Users/barklem/Dropbox/StudentProjectWork/AdamHultquist/extended data/Sigma_CWID_fixade.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11914,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								11914
+							]
+						],
+						"settings":
+						{
+							"SL.26.region_keys":
+							[
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "calculations/carlosNodamod.input",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3521,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3515,
+								3515
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "calculations/carlosNodamod.long",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3700,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								842,
+								842
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "calculations/carlosNodamod.short",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1955,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "pddata.dat",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17180,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17180,
+								17180
+							]
+						],
+						"settings":
+						{
+							"SL.27.region_keys":
+							[
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 17,
+					"file": "strongsol.output",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 37262,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.28.region_keys":
+							[
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "/Users/barklem/Dropbox/Documents/papers/linelist/CDS/hlist.dat",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 572247,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								459810,
+								459927
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "calculations/carlos.long",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2831,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1110,
+								1110
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "/Users/barklem/Dropbox/Projects/broadening/broadening-extras/HK_bands_sneden/ir.list",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8506,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6684,
+								6763
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "calculations/carlosNoda.long",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2895,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								438,
+								438
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "calculations/carlosNoda.input",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1464,
+								1473
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "extend.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
